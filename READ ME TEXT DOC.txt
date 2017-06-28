@@ -1,0 +1,60 @@
+An Instant Messaging System
+
+This is an instant messaging system application developed in java/ j-frames. The main terminology if the project is based on Socket programming. 
+
+System Information and pre-requisites.
+•	IDE : The code is developed in NetBeans IDE 8.2 (Build 201609300101)  
+•	Java: 1.8.0_111; Java HotSpot(TM) 64-Bit Server VM 25.111-b14 
+•	Runtime: Java(TM) SE Runtime Environment 1.8.0_111-b14 
+•	System: Windows 10 version 10.0 running on amd64; Cp1252; en_US (nb) 
+•	User directory: C:\Users\WIN 10\AppData\Roaming\NetBeans\8.2 
+•	Cache directory: C:\Users\WIN 10\AppData\Local\NetBeans\Cache\8.2 
+
+
+To create the entire environment in the lab we need to install and open the Netneans IDE. The main pre-requisite for the project is to have jdk 1.8 installed in the system. Save  The zip file in the package (Chatapplicationsocket)
+
+Instructions:-  (Netbeans)
+
+•	Click on Files on the top left corner of the screen.
+•	Click on Import project or click on Open project.
+•	Select the project mentioned in the package.
+•	Open the project.
+•	Expand the source package tab.
+•	Expand the chatapplicationsocket tab.
+•	Right click on the App_Server and run the file. (Note:Run the server file first.) Following screen will be displayed.
+                                    
+                        
+                                          
+
+•	Then again right click on App_Client and run the file. Following screen  will appear.
+
+
+                                              
+
+•	The send button is used for sending message. Logout button is used for Looging out and closing the socket.
+
+
+Note: The IP Address and the Port number users in this Project are Local to my computer hence they will definitely differ.(Without changing the IP address and the Port number  this project will  project will  not run on different environment.
+
+To Find the IP address and the port of the system open the command prompt. 
+
+Type:  netstat  -aon 
+
+
+
+
+
+
+REFERANCES:
+
+To develop this code and application I have taken reference form the youtube link mentioned below. 
+Link:- https://www.youtube.com/watch?v=kqBmsLvWU14 
+
+Moreover, to understand the logic and nature of the terminology (socket progrming)I have taken reference form the following links.
+Links:- https://coderanch.com/t/634573/java/properly-close-socket-connection 
+
+Links:- http://www.javatpoint.com/java-string-intern 
+
+
+
+
